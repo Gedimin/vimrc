@@ -15,9 +15,6 @@ call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
 
-" Multiple Plug commands can be written in a single line using | separators
-Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
-
 " Using a tagged release; wildcard allowed (requires git 1.9.2 or above)
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
@@ -59,3 +56,5 @@ let &t_EI.="\e[1 q" "EI = нормальный режим
 "4 - просто подчёркивание
 "5 - мигающая вертикальная черта
 "6 - просто вертикальная черта
+" - https://github.com/nvim-lua/completion-nvim
+
